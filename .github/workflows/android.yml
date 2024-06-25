@@ -35,7 +35,6 @@ jobs:
       - name: Run Yarn Install
         run: |
           npm install --force
-          yarn install
 
       - name: Build App
         run: |
