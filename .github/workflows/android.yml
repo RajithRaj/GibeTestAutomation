@@ -39,7 +39,7 @@ jobs:
       - name: Build App
         run: |
           cd ./android
-          ./gradlew assembleDebug
+          ./gradlew assembleRelease
 
       - name: Upload APK to Artifacts
         uses: actions/upload-artifact@v2
