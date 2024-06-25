@@ -32,11 +32,6 @@ jobs:
         with:
           node-version: "21"
 
-      - name: Run Yarn Install
-        run: |
-          npm install -g yarn
-          yarn install
-
       - name: Build App
         run: |
           cd ./android
