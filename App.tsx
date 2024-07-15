@@ -103,7 +103,7 @@ function App(): React.JSX.Element {
 
       <MyComponentWithLogger message={usrPref.getHelloworld()} />
       <Mycomp2 fullName={usrPref.getusrName()} />
-      <Text>Hello new world testing</Text>
+      <Text>Hello new world testing 123</Text>
     </View>
   );
 }
