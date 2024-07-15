@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498504880398",
+    "project_id": "gibe-app-distribution",
+    "storage_bucket": "gibe-app-distribution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498504880398:android:ad2c76cb63828cc99d875f",
+        "android_client_info": {
+          "package_name": "com.gabibe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAizaGe359Bj5Nz72QrDjUVMjGRlu6tq1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

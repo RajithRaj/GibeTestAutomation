@@ -46,5 +46,5 @@ out
 # Mac artifacts
 .DS_Store
 android/.gradle/
-ios/Pods/
+ios/Pods
 android/app/build
