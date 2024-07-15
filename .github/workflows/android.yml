@@ -56,4 +56,4 @@ jobs:
           testers: |
             hellorajith@gmail.com
             rrajan@flairzapp.com
-          file: "/android/app/build/outputs/apk/release/app-release.apk"
+          file: "/home/runner/work/GibeTestAutomation/GibeTestAutomation/android/app/build/outputs/apk/release/app-release.apk"
