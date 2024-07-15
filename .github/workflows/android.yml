@@ -56,4 +56,4 @@ jobs:
           testers: |
             hellorajith@gmail.com
             rrajan@flairzapp.com
-          file: "**/*.apk"
+          file: "/android/app/build/outputs/apk/release/app-release.apk"
