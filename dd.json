@@ -1,0 +1,62 @@
+{
+  "personId": "c61ca6db-e66c-4b13-8db8-a61fdde80927",
+  "organizationId": "4cc856e5-50de-4198-891f-283d776528e6",
+  "templateId": "fe5aedd6-66ff-48cf-b34c-aa32a8fbba23",
+  "dciWorkflow": [
+    {
+      "orgId": "4cc856e5-50de-4198-891f-283d776528e6",
+      "flowType": "questionaire",
+      "displayorder": 2,
+      "flowContent": [
+        {
+          "quesTempId": "fe5aedd6-66ff-48cf-b34c-aa32a8fbba23",
+          "quesTempName": "Anger Internalization Assessment",
+          "enabled": false
+        }
+      ],
+      "id": "dc52c7af-daec-4992-b53a-bfbea202d4e4"
+    },
+    {
+      "id": "1bf90c8d-b3e2-4b45-a706-2a78af022e91",
+      "flowType": "recommendations",
+      "header": {
+        "requireHeader": "No"
+      },
+      "flowContent": [
+        {
+          "recommendItems": [
+            {
+              "type": "FCFood",
+              "imageUrl": "https://flairzsupport.s3.amazonaws.com/salty-food-icon.jpg",
+              "title": "Food",
+              "value": "10g sodium",
+              "button": {
+                "title": "set reminder",
+                "navigation": {
+                  "navigateTo": "FCViewFile"
+                }
+              }
+            },
+            {
+              "type": "FCRest",
+              "imageUrl": "https://flairzhealth.s3.amazonaws.com/CTRL/icon/rest_icon.png",
+              "title": "Rest",
+              "value": "2 hour",
+              "button": {
+                "title": "set reminder",
+                "navigation": {
+                  "navigateTo": "FCWebview"
+                }
+              }
+            }
+          ],
+          "riskType": "dehydration",
+          "startDate": "2024-06-30T18:30:00.000Z",
+          "endDate": "2024-07-30T18:30:00.000Z",
+          "riskRangeStart": 0,
+          "riskRangeEnd": 33
+        }
+      ]
+    }
+  ]
+}
