@@ -95,16 +95,18 @@ function App(): React.JSX.Element {
   const Mycomp2 = withLogger(AuthLogger);
 
   return (
-    <View style={{ flex: 1 }}>
-      <StatusBar
-        barStyle={isDarkMode ? "light-content" : "dark-content"}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
+    <SafeAreaView style={{ flex: 1 }}>
+      <View style={{ flex: 1, padding: 5 }}>
+        <StatusBar
+          barStyle={isDarkMode ? "light-content" : "dark-content"}
+          backgroundColor={backgroundStyle.backgroundColor}
+        />
 
-      <MyComponentWithLogger message={usrPref.getHelloworld()} />
-      <Mycomp2 fullName={usrPref.getusrName()} />
-      <Text>Welcome to hello world</Text>
-    </View>
+        <MyComponentWithLogger message={usrPref.getHelloworld()} />
+        <Mycomp2 fullName={usrPref.getusrName()} />
+        <Text>Welcome to hello world new automation testing</Text>
+      </View>
+    </SafeAreaView>
   );
 }
 
